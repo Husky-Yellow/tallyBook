@@ -1,0 +1,19 @@
+2021-08-03 23:11:10,194 ERROR 10104 [-/127.0.0.1/-/12ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (C:\Users\SmallYellow\Desktop\egg-example\app\controller\home.js:9:5)
+    at async C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10104
+hostname: SmallYellow
+

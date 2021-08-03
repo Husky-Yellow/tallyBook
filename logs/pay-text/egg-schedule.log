@@ -1,0 +1,78 @@
+2021-08-03 22:20:12,353 INFO 3864 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 22:20:12,353 INFO 3864 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 22:20:12,353 INFO 3864 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 22:20:12,797 INFO 3572 [Timer] C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 22187209ms at 2021-08-04 04:30:00.006
+2021-08-03 22:20:12,797 INFO 3572 [Timer] C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 5987203ms at 2021-08-04 00:00:00.000
+2021-08-03 22:20:12,798 INFO 3572 [Timer] C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 5988203ms at 2021-08-04 00:00:01.001
+2021-08-03 22:56:59,063 INFO 6516 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 22:56:59,063 INFO 6516 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 22:56:59,064 INFO 6516 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:01:51,574 INFO 10372 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:01:51,574 INFO 10372 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:01:51,574 INFO 10372 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:01:53,857 INFO 10632 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:01:53,857 INFO 10632 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:01:53,857 INFO 10632 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:04:05,044 INFO 11588 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:04:05,045 INFO 11588 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:04:05,045 INFO 11588 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:04:37,938 INFO 6392 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:04:37,938 INFO 6392 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:04:37,938 INFO 6392 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:04:40,580 INFO 9156 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:04:40,580 INFO 9156 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:04:40,580 INFO 9156 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:04:42,887 INFO 6632 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:04:42,887 INFO 6632 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:04:42,887 INFO 6632 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:06:53,142 INFO 7596 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:06:53,142 INFO 7596 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:06:53,143 INFO 7596 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:07:11,256 INFO 8596 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:07:11,256 INFO 8596 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:07:11,256 INFO 8596 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:07:11,471 INFO 10476 [Timer] C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 19368534ms at 2021-08-04 04:30:00.004
+2021-08-03 23:07:11,471 INFO 10476 [Timer] C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 3168529ms at 2021-08-04 00:00:00.000
+2021-08-03 23:07:11,471 INFO 10476 [Timer] C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 3169529ms at 2021-08-04 00:00:01.000
+2021-08-03 23:07:47,584 INFO 784 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:07:47,584 INFO 784 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:07:47,584 INFO 784 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:07:53,923 INFO 8584 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:07:53,923 INFO 8584 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:07:53,923 INFO 8584 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:07:55,992 INFO 11228 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:07:55,992 INFO 11228 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:07:55,992 INFO 11228 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:08:18,064 INFO 2824 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:08:18,064 INFO 2824 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:08:18,064 INFO 2824 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:08:25,264 INFO 10356 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:08:25,264 INFO 10356 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:08:25,264 INFO 10356 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:09:48,792 INFO 3180 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:09:48,792 INFO 3180 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:09:48,792 INFO 3180 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:10:03,057 INFO 11228 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:10:03,057 INFO 11228 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:10:03,057 INFO 11228 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:10:35,825 INFO 8840 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:10:35,825 INFO 8840 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:10:35,825 INFO 8840 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:10:37,866 INFO 8236 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:10:37,866 INFO 8236 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:10:37,866 INFO 8236 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:11:04,812 INFO 10104 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:11:04,812 INFO 10104 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:11:04,812 INFO 10104 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:18:56,179 INFO 9432 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:18:56,179 INFO 9432 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:18:56,179 INFO 9432 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:18:56,383 INFO 11580 [Timer] C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 18663621ms at 2021-08-04 04:30:00.004
+2021-08-03 23:18:56,383 INFO 11580 [Timer] C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 2463617ms at 2021-08-04 00:00:00.000
+2021-08-03 23:18:56,383 INFO 11580 [Timer] C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 2464617ms at 2021-08-04 00:00:01.000
+2021-08-03 23:19:48,558 INFO 7964 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:19:48,558 INFO 7964 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:19:48,558 INFO 7964 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-03 23:20:06,344 INFO 9764 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-03 23:20:06,344 INFO 9764 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-03 23:20:06,344 INFO 9764 [egg-schedule]: register schedule C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

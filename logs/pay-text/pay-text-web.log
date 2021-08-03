@@ -1,0 +1,35 @@
+2021-08-03 23:05:34,252 WARN 6632 [-/127.0.0.1/-/26ms POST /add] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-08-03 23:05:34,256 WARN 6632 [-/127.0.0.1/-/30ms POST /add] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 6632
+hostname: SmallYellow
+
+2021-08-03 23:11:10,203 ERROR 10104 [-/127.0.0.1/-/12ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (C:\Users\SmallYellow\Desktop\egg-example\app\controller\home.js:9:5)
+    at async C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\SmallYellow\Desktop\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\SmallYellow\Desktop\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10104
+hostname: SmallYellow
+
