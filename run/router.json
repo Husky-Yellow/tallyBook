@@ -15,23 +15,24 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/add",
+    "regexp": "/^\\/add(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
-    "paramNames": [
-      {
-        "name": "id",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      }
-    ],
-    "path": "/user/:id",
-    "regexp": "/^\\/user\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "paramNames": [],
+    "path": "/user",
+    "regexp": "/^\\/user(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -42,8 +43,32 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/add",
-    "regexp": "/^\\/add(?:\\/(?=$))?$/",
+    "path": "/add_user",
+    "regexp": "/^\\/add_user(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/edit_user",
+    "regexp": "/^\\/edit_user(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/delete_user",
+    "regexp": "/^\\/delete_user(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

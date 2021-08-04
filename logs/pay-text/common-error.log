@@ -17,3 +17,12 @@ operator: "=="
 pid: 10104
 hostname: SmallYellow
 
+2021-08-04 23:53:00,813 ERROR 1360 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1360
+hostname: SmallYellow
+

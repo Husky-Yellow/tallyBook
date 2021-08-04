@@ -91,26 +91,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-session\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-security\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-jsonp\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-onerror\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-i18n\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-watcher\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-schedule\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-multipart\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-development\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-logrotator\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-static\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-view\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-view-ejs\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\locales",
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\config\\locales"
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-session\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-security\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-jsonp\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-onerror\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-i18n\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-watcher\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-schedule\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-multipart\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-development\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-logrotator\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-static\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-view\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-view-ejs\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-mysql\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\locales",
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -121,8 +122,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -171,7 +172,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\app\\public",
+      "dir": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -179,7 +180,7 @@
     },
     "view": {
       "root": [
-        "C:\\Users\\SmallYellow\\Desktop\\egg-example\\app\\view"
+        "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -189,12 +190,27 @@
       }
     },
     "ejs": {
-      "root": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\app\\view",
+      "root": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\app\\view",
       "cache": false,
       "debug": false,
       "compileDebug": true,
       "delimiter": null,
       "strict": false
+    },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "localhost",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 4>",
+        "database": "testlist"
+      }
     },
     "env": "local",
     "name": "pay-text",
@@ -216,6 +232,7 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
+        "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.11.0",
         "egg-view-ejs": "^2.0.1"
       },
@@ -253,9 +270,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "C:\\Users\\SmallYellow\\Desktop\\egg-example",
+    "baseDir": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook",
     "HOME": "C:\\Users\\SmallYellow",
-    "rundir": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\run",
+    "rundir": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -287,7 +304,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\logs\\pay-text",
+      "dir": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -382,8 +399,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-onerror",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -393,8 +410,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-session",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -404,8 +421,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-i18n",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -415,8 +432,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-watcher",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -428,8 +445,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-multipart",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -441,8 +458,8 @@
         "session"
       ],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-security",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-security",
       "version": "2.9.0"
     },
     "development": {
@@ -456,8 +473,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-development",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -469,8 +486,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-logrotator",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -480,8 +497,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-schedule",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -491,8 +508,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-static",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -504,8 +521,8 @@
         "security"
       ],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-jsonp",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -515,8 +532,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-view",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-view",
       "version": "2.1.3"
     },
     "ejs": {
@@ -528,9 +545,20 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\config\\plugin.js",
-      "path": "C:\\Users\\SmallYellow\\Desktop\\egg-example\\node_modules\\egg-view-ejs",
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-view-ejs",
       "version": "2.0.1"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\config\\plugin.js",
+      "path": "C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\node_modules\\egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

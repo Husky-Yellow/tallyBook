@@ -305,3 +305,254 @@
 2021-08-03 23:20:06,561 INFO 9764 [egg:core] dump config after load, 38ms
 2021-08-03 23:20:06,586 INFO 9764 [egg-watcher:application] watcher start success
 2021-08-03 23:20:06,598 INFO 9764 [egg:core] dump config after ready, 10ms
+2021-08-04 22:14:35,334 INFO 3032 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 22:14:35,376 INFO 3032 [egg-multipart] stream mode enable
+2021-08-04 22:14:35,621 INFO 3032 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 22:14:35,641 INFO 3032 [egg-security] use methodnoallow middleware
+2021-08-04 22:14:35,643 INFO 3032 [egg-security] use noopen middleware
+2021-08-04 22:14:35,651 INFO 3032 [egg-security] use nosniff middleware
+2021-08-04 22:14:35,652 INFO 3032 [egg-security] use xssProtection middleware
+2021-08-04 22:14:35,654 INFO 3032 [egg-security] use xframe middleware
+2021-08-04 22:14:35,655 INFO 3032 [egg-security] use dta middleware
+2021-08-04 22:14:35,655 INFO 3032 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 22:14:35,675 INFO 3032 [egg:core] dump config after load, 11ms
+2021-08-04 22:14:35,697 INFO 3032 [egg-watcher:application] watcher start success
+2021-08-04 22:14:35,709 INFO 3032 [egg:core] dump config after ready, 9ms
+2021-08-04 23:09:02,471 INFO 6644 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:09:02,563 INFO 6644 [egg-multipart] stream mode enable
+2021-08-04 23:09:02,971 INFO 6644 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:09:02,976 INFO 6644 [egg-security] use methodnoallow middleware
+2021-08-04 23:09:02,977 INFO 6644 [egg-security] use noopen middleware
+2021-08-04 23:09:02,997 INFO 6644 [egg-security] use nosniff middleware
+2021-08-04 23:09:02,998 INFO 6644 [egg-security] use xssProtection middleware
+2021-08-04 23:09:03,002 INFO 6644 [egg-security] use xframe middleware
+2021-08-04 23:09:03,003 INFO 6644 [egg-security] use dta middleware
+2021-08-04 23:09:03,004 INFO 6644 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:09:03,025 INFO 6644 [egg:core] dump config after load, 13ms
+2021-08-04 23:09:03,063 INFO 6644 [egg-watcher:application] watcher start success
+2021-08-04 23:09:03,137 INFO 6644 [egg:core] dump config after ready, 63ms
+2021-08-04 23:39:38,250 INFO 10888 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:39:38,290 INFO 10888 [egg-multipart] stream mode enable
+2021-08-04 23:39:38,295 INFO 10888 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:39:38,537 INFO 10888 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:39:38,540 INFO 10888 [egg-security] use methodnoallow middleware
+2021-08-04 23:39:38,541 INFO 10888 [egg-security] use noopen middleware
+2021-08-04 23:39:38,542 INFO 10888 [egg-security] use nosniff middleware
+2021-08-04 23:39:38,543 INFO 10888 [egg-security] use xssProtection middleware
+2021-08-04 23:39:38,544 INFO 10888 [egg-security] use xframe middleware
+2021-08-04 23:39:38,544 INFO 10888 [egg-security] use dta middleware
+2021-08-04 23:39:38,544 INFO 10888 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:39:38,560 INFO 10888 [egg:core] dump config after load, 9ms
+2021-08-04 23:39:38,584 INFO 10888 [egg-watcher:application] watcher start success
+2021-08-04 23:39:38,587 INFO 10888 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:39:38 GMT+0800 (中国标准时间)
+2021-08-04 23:39:38,600 INFO 10888 [egg:core] dump config after ready, 10ms
+2021-08-04 23:40:27,852 INFO 2344 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:40:27,915 INFO 2344 [egg-multipart] stream mode enable
+2021-08-04 23:40:27,925 INFO 2344 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:40:28,201 INFO 2344 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:40:28,205 INFO 2344 [egg-security] use methodnoallow middleware
+2021-08-04 23:40:28,206 INFO 2344 [egg-security] use noopen middleware
+2021-08-04 23:40:28,208 INFO 2344 [egg-security] use nosniff middleware
+2021-08-04 23:40:28,208 INFO 2344 [egg-security] use xssProtection middleware
+2021-08-04 23:40:28,209 INFO 2344 [egg-security] use xframe middleware
+2021-08-04 23:40:28,210 INFO 2344 [egg-security] use dta middleware
+2021-08-04 23:40:28,210 INFO 2344 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:40:28,225 INFO 2344 [egg:core] dump config after load, 9ms
+2021-08-04 23:40:28,251 INFO 2344 [egg-watcher:application] watcher start success
+2021-08-04 23:40:28,254 INFO 2344 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:40:28 GMT+0800 (中国标准时间)
+2021-08-04 23:40:28,266 INFO 2344 [egg:core] dump config after ready, 9ms
+2021-08-04 23:41:52,046 INFO 13284 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:41:52,091 INFO 13284 [egg-multipart] stream mode enable
+2021-08-04 23:41:52,096 INFO 13284 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:41:52,330 INFO 13284 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:41:52,334 INFO 13284 [egg-security] use methodnoallow middleware
+2021-08-04 23:41:52,335 INFO 13284 [egg-security] use noopen middleware
+2021-08-04 23:41:52,336 INFO 13284 [egg-security] use nosniff middleware
+2021-08-04 23:41:52,337 INFO 13284 [egg-security] use xssProtection middleware
+2021-08-04 23:41:52,338 INFO 13284 [egg-security] use xframe middleware
+2021-08-04 23:41:52,338 INFO 13284 [egg-security] use dta middleware
+2021-08-04 23:41:52,338 INFO 13284 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:41:52,353 INFO 13284 [egg:core] dump config after load, 8ms
+2021-08-04 23:41:52,377 INFO 13284 [egg-watcher:application] watcher start success
+2021-08-04 23:41:52,382 INFO 13284 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:41:52 GMT+0800 (中国标准时间)
+2021-08-04 23:41:52,393 INFO 13284 [egg:core] dump config after ready, 9ms
+2021-08-04 23:42:03,019 INFO 4884 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:42:03,066 INFO 4884 [egg-multipart] stream mode enable
+2021-08-04 23:42:03,072 INFO 4884 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:42:03,326 INFO 4884 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:42:03,331 INFO 4884 [egg-security] use methodnoallow middleware
+2021-08-04 23:42:03,331 INFO 4884 [egg-security] use noopen middleware
+2021-08-04 23:42:03,333 INFO 4884 [egg-security] use nosniff middleware
+2021-08-04 23:42:03,334 INFO 4884 [egg-security] use xssProtection middleware
+2021-08-04 23:42:03,334 INFO 4884 [egg-security] use xframe middleware
+2021-08-04 23:42:03,335 INFO 4884 [egg-security] use dta middleware
+2021-08-04 23:42:03,335 INFO 4884 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:42:03,348 INFO 4884 [egg:core] dump config after load, 7ms
+2021-08-04 23:42:03,372 INFO 4884 [egg-watcher:application] watcher start success
+2021-08-04 23:42:03,375 INFO 4884 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:42:03 GMT+0800 (中国标准时间)
+2021-08-04 23:42:03,387 INFO 4884 [egg:core] dump config after ready, 9ms
+2021-08-04 23:42:10,294 INFO 12320 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:42:10,340 INFO 12320 [egg-multipart] stream mode enable
+2021-08-04 23:42:10,345 INFO 12320 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:42:10,640 INFO 12320 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:42:10,646 INFO 12320 [egg-security] use methodnoallow middleware
+2021-08-04 23:42:10,647 INFO 12320 [egg-security] use noopen middleware
+2021-08-04 23:42:10,648 INFO 12320 [egg-security] use nosniff middleware
+2021-08-04 23:42:10,649 INFO 12320 [egg-security] use xssProtection middleware
+2021-08-04 23:42:10,650 INFO 12320 [egg-security] use xframe middleware
+2021-08-04 23:42:10,651 INFO 12320 [egg-security] use dta middleware
+2021-08-04 23:42:10,651 INFO 12320 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:42:10,671 INFO 12320 [egg:core] dump config after load, 9ms
+2021-08-04 23:42:10,704 INFO 12320 [egg-watcher:application] watcher start success
+2021-08-04 23:42:10,709 INFO 12320 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:42:10 GMT+0800 (中国标准时间)
+2021-08-04 23:42:10,723 INFO 12320 [egg:core] dump config after ready, 11ms
+2021-08-04 23:42:27,779 INFO 12564 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:42:27,828 INFO 12564 [egg-multipart] stream mode enable
+2021-08-04 23:42:27,834 INFO 12564 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:42:28,110 INFO 12564 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:42:28,114 INFO 12564 [egg-security] use methodnoallow middleware
+2021-08-04 23:42:28,115 INFO 12564 [egg-security] use noopen middleware
+2021-08-04 23:42:28,117 INFO 12564 [egg-security] use nosniff middleware
+2021-08-04 23:42:28,118 INFO 12564 [egg-security] use xssProtection middleware
+2021-08-04 23:42:28,119 INFO 12564 [egg-security] use xframe middleware
+2021-08-04 23:42:28,119 INFO 12564 [egg-security] use dta middleware
+2021-08-04 23:42:28,120 INFO 12564 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:42:28,135 INFO 12564 [egg:core] dump config after load, 7ms
+2021-08-04 23:42:28,162 INFO 12564 [egg-watcher:application] watcher start success
+2021-08-04 23:42:28,166 INFO 12564 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:42:28 GMT+0800 (中国标准时间)
+2021-08-04 23:42:28,179 INFO 12564 [egg:core] dump config after ready, 11ms
+2021-08-04 23:42:30,585 INFO 6904 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:42:30,652 INFO 6904 [egg-multipart] stream mode enable
+2021-08-04 23:42:30,662 INFO 6904 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:42:30,990 INFO 6904 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:42:30,995 INFO 6904 [egg-security] use methodnoallow middleware
+2021-08-04 23:42:30,996 INFO 6904 [egg-security] use noopen middleware
+2021-08-04 23:42:30,998 INFO 6904 [egg-security] use nosniff middleware
+2021-08-04 23:42:30,999 INFO 6904 [egg-security] use xssProtection middleware
+2021-08-04 23:42:31,000 INFO 6904 [egg-security] use xframe middleware
+2021-08-04 23:42:31,001 INFO 6904 [egg-security] use dta middleware
+2021-08-04 23:42:31,001 INFO 6904 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:42:31,017 INFO 6904 [egg:core] dump config after load, 10ms
+2021-08-04 23:42:31,047 INFO 6904 [egg-watcher:application] watcher start success
+2021-08-04 23:42:31,051 INFO 6904 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:42:31 GMT+0800 (中国标准时间)
+2021-08-04 23:42:31,070 INFO 6904 [egg:core] dump config after ready, 17ms
+2021-08-04 23:45:59,621 INFO 10016 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:45:59,672 INFO 10016 [egg-multipart] stream mode enable
+2021-08-04 23:45:59,679 INFO 10016 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:45:59,935 INFO 10016 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:45:59,938 INFO 10016 [egg-security] use methodnoallow middleware
+2021-08-04 23:45:59,939 INFO 10016 [egg-security] use noopen middleware
+2021-08-04 23:45:59,940 INFO 10016 [egg-security] use nosniff middleware
+2021-08-04 23:45:59,941 INFO 10016 [egg-security] use xssProtection middleware
+2021-08-04 23:45:59,943 INFO 10016 [egg-security] use xframe middleware
+2021-08-04 23:45:59,945 INFO 10016 [egg-security] use dta middleware
+2021-08-04 23:45:59,945 INFO 10016 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:45:59,959 INFO 10016 [egg:core] dump config after load, 8ms
+2021-08-04 23:45:59,980 INFO 10016 [egg-watcher:application] watcher start success
+2021-08-04 23:45:59,988 INFO 10016 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:45:59 GMT+0800 (中国标准时间)
+2021-08-04 23:46:00,000 INFO 10016 [egg:core] dump config after ready, 10ms
+2021-08-04 23:46:13,773 INFO 12440 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:46:13,815 INFO 12440 [egg-multipart] stream mode enable
+2021-08-04 23:46:13,821 INFO 12440 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:46:14,143 INFO 12440 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:46:14,149 INFO 12440 [egg-security] use methodnoallow middleware
+2021-08-04 23:46:14,150 INFO 12440 [egg-security] use noopen middleware
+2021-08-04 23:46:14,151 INFO 12440 [egg-security] use nosniff middleware
+2021-08-04 23:46:14,152 INFO 12440 [egg-security] use xssProtection middleware
+2021-08-04 23:46:14,152 INFO 12440 [egg-security] use xframe middleware
+2021-08-04 23:46:14,153 INFO 12440 [egg-security] use dta middleware
+2021-08-04 23:46:14,153 INFO 12440 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:46:14,171 INFO 12440 [egg:core] dump config after load, 9ms
+2021-08-04 23:46:14,252 INFO 12440 [egg-watcher:application] watcher start success
+2021-08-04 23:46:14,263 INFO 12440 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:46:14 GMT+0800 (中国标准时间)
+2021-08-04 23:46:14,281 INFO 12440 [egg:core] dump config after ready, 15ms
+2021-08-04 23:52:14,116 INFO 8948 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:52:14,161 INFO 8948 [egg-multipart] stream mode enable
+2021-08-04 23:52:14,168 INFO 8948 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:52:14,411 INFO 8948 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:52:14,415 INFO 8948 [egg-security] use methodnoallow middleware
+2021-08-04 23:52:14,416 INFO 8948 [egg-security] use noopen middleware
+2021-08-04 23:52:14,417 INFO 8948 [egg-security] use nosniff middleware
+2021-08-04 23:52:14,418 INFO 8948 [egg-security] use xssProtection middleware
+2021-08-04 23:52:14,419 INFO 8948 [egg-security] use xframe middleware
+2021-08-04 23:52:14,420 INFO 8948 [egg-security] use dta middleware
+2021-08-04 23:52:14,420 INFO 8948 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:52:14,434 INFO 8948 [egg:core] dump config after load, 7ms
+2021-08-04 23:52:14,456 INFO 8948 [egg-watcher:application] watcher start success
+2021-08-04 23:52:14,460 INFO 8948 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:52:14 GMT+0800 (中国标准时间)
+2021-08-04 23:52:14,471 INFO 8948 [egg:core] dump config after ready, 8ms
+2021-08-04 23:52:33,773 INFO 7340 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:52:33,820 INFO 7340 [egg-multipart] stream mode enable
+2021-08-04 23:52:33,826 INFO 7340 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:52:34,072 INFO 7340 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:52:34,075 INFO 7340 [egg-security] use methodnoallow middleware
+2021-08-04 23:52:34,076 INFO 7340 [egg-security] use noopen middleware
+2021-08-04 23:52:34,077 INFO 7340 [egg-security] use nosniff middleware
+2021-08-04 23:52:34,078 INFO 7340 [egg-security] use xssProtection middleware
+2021-08-04 23:52:34,079 INFO 7340 [egg-security] use xframe middleware
+2021-08-04 23:52:34,080 INFO 7340 [egg-security] use dta middleware
+2021-08-04 23:52:34,080 INFO 7340 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:52:34,094 INFO 7340 [egg:core] dump config after load, 7ms
+2021-08-04 23:52:34,117 INFO 7340 [egg-watcher:application] watcher start success
+2021-08-04 23:52:34,121 INFO 7340 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:52:34 GMT+0800 (中国标准时间)
+2021-08-04 23:52:34,148 INFO 7340 [egg:core] dump config after ready, 24ms
+2021-08-04 23:52:57,249 INFO 8704 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:52:57,330 INFO 8704 [egg-multipart] stream mode enable
+2021-08-04 23:52:57,339 INFO 8704 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:52:57,646 INFO 8704 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:52:57,650 INFO 8704 [egg-security] use methodnoallow middleware
+2021-08-04 23:52:57,651 INFO 8704 [egg-security] use noopen middleware
+2021-08-04 23:52:57,653 INFO 8704 [egg-security] use nosniff middleware
+2021-08-04 23:52:57,654 INFO 8704 [egg-security] use xssProtection middleware
+2021-08-04 23:52:57,655 INFO 8704 [egg-security] use xframe middleware
+2021-08-04 23:52:57,655 INFO 8704 [egg-security] use dta middleware
+2021-08-04 23:52:57,656 INFO 8704 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:52:57,672 INFO 8704 [egg:core] dump config after load, 10ms
+2021-08-04 23:52:57,702 INFO 8704 [egg-watcher:application] watcher start success
+2021-08-04 23:52:57,713 INFO 8704 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:52:57 GMT+0800 (中国标准时间)
+2021-08-04 23:52:57,729 INFO 8704 [egg:core] dump config after ready, 12ms
+2021-08-04 23:53:00,786 INFO 4328 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:53:00,875 INFO 4328 [egg-multipart] stream mode enable
+2021-08-04 23:53:00,883 INFO 4328 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:53:01,156 INFO 4328 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:53:01,160 INFO 4328 [egg-security] use methodnoallow middleware
+2021-08-04 23:53:01,161 INFO 4328 [egg-security] use noopen middleware
+2021-08-04 23:53:01,162 INFO 4328 [egg-security] use nosniff middleware
+2021-08-04 23:53:01,163 INFO 4328 [egg-security] use xssProtection middleware
+2021-08-04 23:53:01,164 INFO 4328 [egg-security] use xframe middleware
+2021-08-04 23:53:01,166 INFO 4328 [egg-security] use dta middleware
+2021-08-04 23:53:01,166 INFO 4328 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:53:01,182 INFO 4328 [egg:core] dump config after load, 9ms
+2021-08-04 23:53:01,207 INFO 4328 [egg-watcher:application] watcher start success
+2021-08-04 23:53:01,212 INFO 4328 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:53:01 GMT+0800 (中国标准时间)
+2021-08-04 23:53:01,226 INFO 4328 [egg:core] dump config after ready, 11ms
+2021-08-04 23:53:20,182 INFO 5448 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:53:20,228 INFO 5448 [egg-multipart] stream mode enable
+2021-08-04 23:53:20,233 INFO 5448 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:53:20,517 INFO 5448 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:53:20,523 INFO 5448 [egg-security] use methodnoallow middleware
+2021-08-04 23:53:20,524 INFO 5448 [egg-security] use noopen middleware
+2021-08-04 23:53:20,525 INFO 5448 [egg-security] use nosniff middleware
+2021-08-04 23:53:20,527 INFO 5448 [egg-security] use xssProtection middleware
+2021-08-04 23:53:20,527 INFO 5448 [egg-security] use xframe middleware
+2021-08-04 23:53:20,528 INFO 5448 [egg-security] use dta middleware
+2021-08-04 23:53:20,528 INFO 5448 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:53:20,544 INFO 5448 [egg:core] dump config after load, 8ms
+2021-08-04 23:53:20,568 INFO 5448 [egg-watcher:application] watcher start success
+2021-08-04 23:53:20,573 INFO 5448 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:53:20 GMT+0800 (中国标准时间)
+2021-08-04 23:53:20,584 INFO 5448 [egg:core] dump config after ready, 9ms
+2021-08-04 23:53:27,658 INFO 7576 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\SmallYellow\\Desktop\\o\\Web\\egg-example\\tallyBook\\logs\\pay-text","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pay-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-04 23:53:27,711 INFO 7576 [egg-multipart] stream mode enable
+2021-08-04 23:53:27,718 INFO 7576 [egg-mysql] connecting root@localhost:3306/testlist
+2021-08-04 23:53:27,984 INFO 7576 [egg-static] starting static serve /public/ -> C:\Users\SmallYellow\Desktop\o\Web\egg-example\tallyBook\app\public
+2021-08-04 23:53:27,988 INFO 7576 [egg-security] use methodnoallow middleware
+2021-08-04 23:53:27,989 INFO 7576 [egg-security] use noopen middleware
+2021-08-04 23:53:27,990 INFO 7576 [egg-security] use nosniff middleware
+2021-08-04 23:53:27,991 INFO 7576 [egg-security] use xssProtection middleware
+2021-08-04 23:53:27,992 INFO 7576 [egg-security] use xframe middleware
+2021-08-04 23:53:27,993 INFO 7576 [egg-security] use dta middleware
+2021-08-04 23:53:27,993 INFO 7576 [egg-security] compose 6 middlewares into one security middleware
+2021-08-04 23:53:28,006 INFO 7576 [egg:core] dump config after load, 7ms
+2021-08-04 23:53:28,030 INFO 7576 [egg-watcher:application] watcher start success
+2021-08-04 23:53:28,034 INFO 7576 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 04 2021 23:53:28 GMT+0800 (中国标准时间)
+2021-08-04 23:53:28,045 INFO 7576 [egg:core] dump config after ready, 9ms
